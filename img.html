@@ -1,0 +1,25 @@
+<!-- PDF 2.6 -->
+
+<body>
+    <!-- 원래 자기 크기로 출력됨 -->
+    <img src="/images/1.jpg" alt="" width="100px" style="height: 100px;">
+    <!-- width="100px" : 크기 조절 -->
+    <!-- height="100px" : 높이 조절 -->
+    <!-- 이미지가 원래 갖고 있는 비율이 있기때문에 둘 중 하나만 사용해서 사이즈 조절해주는게 좋음 -->
+
+    <img src="images/2.jpg" alt=""> <!-- 제일 옳은 방법 -->
+
+    <img src="./images/3.jpg" alt="">
+    <img src="../images/4.jpg" alt=""> <!-- 더이상 올라갈곳이 없기때문에 .. 도 허용 -->
+
+    <img src="images/5.jpg" alt="">
+    <img src="images/6.jpg" alt="">
+
+    <!-- 모든 이미지 크기 조절 -->
+    <style>
+        img {
+            width: 100px;
+            height: 140px;
+        }
+    </style>
+</body>
